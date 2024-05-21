@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // quy định output module được sử dụng
+    "moduleResolution": "Node",
+    "target": "ES2020", // target output cho code
+    "outDir": "dist", // đường dẫn output cho thư mục build
+    "esModuleInterop": true,
+    "strict": true,
+    //"noImplicitAny": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"] // định nghĩa các alias đến đường dẫn trong mã nguồn
+    }
+  },
+  
+  
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "files": ["src/type.d.ts"], // các file cần được tính vào khi biên dịch
+  "include": ["src/**/*"] // các thư mục và file cần được bao gồm khi biên dịch
+}

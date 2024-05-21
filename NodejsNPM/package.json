@@ -1,0 +1,19 @@
+{
+  "name": "duong-dinh-khanh",
+  "version": "0.0.1",
+  "description": "tự học npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node NPM/index.js"
+  },
+  "keywords": [
+    "267"
+  ],
+  "author": "Khanh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "lodash": "^4.17.21"
+  }
+}
